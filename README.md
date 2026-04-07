@@ -7,9 +7,9 @@ This project utilizes an **LM358 Operational Amplifier** as a voltage comparator
 
 ## 🚀 Features
 * **Precision Sensing:** Uses a Negative Temperature Coefficient (NTC) thermistor for sensitive thermal detection. 
-* **Customizable Threshold:** Includes a 10kΩ potentiometer to manually calibrate the exact "trip point" for the LED. [cite: 11]
-* **Autonomous Operation:** Works entirely on analog logic without the need for programming or microcontrollers. [cite: 16, 59]
-* **Versatile Applications:** Can be modified to trigger cooling fans or buzzers for industrial safety. [cite: 53, 55]
+* **Customizable Threshold:** Includes a 10kΩ potentiometer to manually calibrate the exact "trip point" for the LED. 
+* **Autonomous Operation:** Works entirely on analog logic without the need for programming or microcontrollers. 
+* **Versatile Applications:** Can be modified to trigger cooling fans or buzzers for industrial safety. 
 
 ## 🛠️ Hardware Components
 | Component | Quantity | Purpose |
@@ -22,10 +22,10 @@ This project utilizes an **LM358 Operational Amplifier** as a voltage comparator
 | **Power Supply** | 5V | Circuit Power |
 
 ## ⚙️ Working Principle
-1.**Sensing:** The NTC thermistor's resistance decreases as the ambient temperature increases.
-2.**Comparison:** This change in resistance alters the voltage at the Op-Amp's inverting input.
-3.**Triggering:** When this voltage crosses the reference threshold set by the potentiometer, the LM358 switches its output state to HIGH.
-4. **Output:** The HIGH signal flows through a current-limiting resistor to turn the LED ON.
+1.**Sensing:** The NTC thermistor's resistance decreases as the ambient temperature increases. 
+2.**Comparison:** This change in resistance alters the voltage at the Op-Amp's inverting input.  
+3.**Triggering:** When this voltage crosses the reference threshold set by the potentiometer, the LM358 switches its output state to HIGH.     
+4. **Output:** The HIGH signal flows through a current-limiting resistor to turn the LED ON.           
 
 ## 🔌 Circuit Diagram
 (https://github.com/himanshi-srivastava1/Temperature-Controlled-LED/blob/main/circuit-diagram.png)

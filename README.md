@@ -28,7 +28,7 @@ This project utilizes an **LM358 Operational Amplifier** as a voltage comparator
 4. **Output:** The HIGH signal flows through a current-limiting resistor to turn the LED ON.
 
 ## 🔌 Circuit Diagram
-(https://github.com/himanshi-srivastava1/Temperature-Controlled-LED/main/circuit-diagram.png)
+(https://github.com/himanshi-srivastava1/Temperature-Controlled-LED/blob/main/circuit-diagram.png)
 
 ## 📂 Project Structure
 * `/docs`: Contains the project proposal.

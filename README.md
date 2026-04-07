@@ -22,17 +22,17 @@ This project utilizes an **LM358 Operational Amplifier** as a voltage comparator
 | **Power Supply** | 5V | Circuit Power |
 
 ## ⚙️ Working Principle
-1.**Sensing:** The NTC thermistor's resistance decreases as the ambient temperature increases[cite: 10].
-2.**Comparison:** This change in resistance alters the voltage at the Op-Amp's inverting input[cite: 49].
-3.**Triggering:** When this voltage crosses the reference threshold set by the potentiometer, the LM358 switches its output state to HIGH[cite: 50].
-4. **Output:** The HIGH signal flows through a current-limiting resistor to turn the LED ON[cite: 50].
+1.**Sensing:** The NTC thermistor's resistance decreases as the ambient temperature increases.
+2.**Comparison:** This change in resistance alters the voltage at the Op-Amp's inverting input.
+3.**Triggering:** When this voltage crosses the reference threshold set by the potentiometer, the LM358 switches its output state to HIGH.
+4. **Output:** The HIGH signal flows through a current-limiting resistor to turn the LED ON.
 
 ## 🔌 Circuit Diagram
-(https://github.com/himanshi-srivastava1/Temperature-Controlled-LED/circuit-diagram.png)
+(https://github.com/himanshi-srivastava1/Temperature-Controlled-LED/main/circuit-diagram.png)
 
 ## 📂 Project Structure
-* `/docs`: Contains the project proposal and component datasheets.
+* `/docs`: Contains the project proposal.
 
 ## 🤝 Contributors
-* **Himanshi Srivastava** [cite: 5]
-* **Hima Sai Sankar Vidya Sagar** [cite: 6]
+* **Himanshi Srivastava** 
+* **Hima Sai Sankar Vidya Sagar** 

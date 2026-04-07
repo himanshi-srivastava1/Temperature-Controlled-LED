@@ -6,10 +6,10 @@ An automated hardware sensing system designed to monitor environmental thermal c
 This project utilizes an **LM358 Operational Amplifier** as a voltage comparator. By integrating an **NTC Thermistor**, the circuit detects when a specific temperature threshold is reached and triggers an LED. It serves as a low-cost, efficient alternative to microcontroller-based monitoring systems for applications like overheat alarms or climate control.
 
 ## 🚀 Features
-* **Precision Sensing:** Uses a Negative Temperature Coefficient (NTC) thermistor for sensitive thermal detection.
-* **Customizable Threshold:** Includes a 10kΩ potentiometer to manually calibrate the exact "trip point" for the LED.
-* **Autonomous Operation:** Works entirely on analog logic without the need for programming or microcontrollers.
-* **Versatile Applications:** Can be modified to trigger cooling fans or buzzers for industrial safety.
+* **Precision Sensing:** Uses a Negative Temperature Coefficient (NTC) thermistor for sensitive thermal detection. [cite: 10]
+* **Customizable Threshold:** Includes a 10kΩ potentiometer to manually calibrate the exact "trip point" for the LED. [cite: 11]
+* **Autonomous Operation:** Works entirely on analog logic without the need for programming or microcontrollers. [cite: 16, 59]
+* **Versatile Applications:** Can be modified to trigger cooling fans or buzzers for industrial safety. [cite: 53, 55]
 
 ## 🛠️ Hardware Components
 | Component | Quantity | Purpose |

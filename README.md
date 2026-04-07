@@ -22,7 +22,7 @@ This project utilizes an **LM358 Operational Amplifier** as a voltage comparator
 | **Power Supply** | 5V | Circuit Power |
 
 ## ⚙️ Working Principle
-1.**Sensing:** The NTC thermistor's resistance decreases as the ambient temperature increases. 
+1.**Sensing:** The NTC thermistor's resistance decreases as the ambient temperature increases.                  
 2.**Comparison:** This change in resistance alters the voltage at the Op-Amp's inverting input.  
 3.**Triggering:** When this voltage crosses the reference threshold set by the potentiometer, the LM358 switches its output state to HIGH.     
 4. **Output:** The HIGH signal flows through a current-limiting resistor to turn the LED ON.           
